@@ -1,0 +1,3 @@
+ddddocr
+tkinter
+threading
