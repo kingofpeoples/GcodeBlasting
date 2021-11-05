@@ -161,8 +161,7 @@ class windowGUI:
 		#打印部分面板
 		self.respon = tk.Text(bottomFrame, width=134,font=('microsoft yahei', 9),bg='black',fg="lightgreen")
 		self.respon.pack(side=LEFT, fill=BOTH)
-		self.respon.insert(tk.INSERT,"[+] 简单图形码识别爆破工具。\n[+] 1、实现图形码识别+账户密码暴力破解。\n\
-			[+] 2、$user$、$pass$、$code$ 分别为需要爆破的用户名、密码、图形验证码识别符。\n[+] 3、爆破需指定对应的识别符来爆破指定的字段。")
+		self.respon.insert(tk.INSERT,"[+] 简单图形码识别爆破工具。\n[+] 1、实现图形码识别+账户密码暴力破解。\n[+] 2、$user$、$pass$、$code$ 分别为需要爆破的用户名、密码、图形验证码识别符。\n[+] 3、爆破需指定对应的识别符来爆破指定的字段。")
 		scroll = tk.Scrollbar(bottomFrame)
 		scroll.pack(side=LEFT,fill=Y)
 		# 设置滚动条与text组件关联
